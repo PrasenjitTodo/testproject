@@ -32,7 +32,7 @@ app.use('/', (req, res, next)=>{
     
 
     console.log('-: Welcome :-');
-    res.send('-: Welcome :-');
+    res.send('-: Welcome :- Msg : '+message+' CryptoJS Hash : '+ciphertext.toString()+' DeCrypt Msg : '+plaintext);
     next();
 });
 
