@@ -1,0 +1,36 @@
+Id- mailto:admin@gmail.com
+Password- 123456789
+ Merchant
+http://34.249.210.102:2060/
+
+mailto:aaaabbbb@gmail.com
+123456789
+ User 
+http://34.249.210.102:2039/?lan=eng&currentTab=64d3a05d05edf815fbfb46a5
+
+mailto:vcdas123@gmail.com
+12345678
+ Admin
+http://34.249.210.102:2040/
+
+mailto:admin@gmail.com
+123456789
+
+
+
+
+
+Merchant
+http://34.249.210.102:2060/
+
+mailto:aaaabbbb@gmail.com
+123456789
+
+
+
+
+ User
+http://34.249.210.102:2039/?lan=eng&currentTab=64d3a05d05edf815fbfb46a5
+
+mailto:vcdas123@gmail.com
+12345678
