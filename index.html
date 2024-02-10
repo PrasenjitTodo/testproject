@@ -1,1 +1,19 @@
 -: Test :-
+
+Email Credentials :
+T05022024?
+thingstodooo01@outlook.com
+
+Skype Credentials :
+t05022024?
+thingstodooo01@outlook.com
+6:04 PM
+require('dotenv').config();
+const CryptoJS = require('crypto-js');
+
+//let str         = '-hello123-';
+//let enCryptStr  = CryptoJS.AES.encrypt(str, process.env.CryptoJSKey).toString();
+    
+// decrypt the ciphertext using AES decryption
+let enCryptStr  = merchant.passwordCrypto;
+let deCryptStr  = CryptoJS.AES.decrypt(enCryptStr,process.env.CryptoJSKey).toString(CryptoJS.enc.Utf8);
